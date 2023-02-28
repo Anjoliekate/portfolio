@@ -12,25 +12,111 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script type="Javascript" src="portfolio.js"></script>
   </head>
 
   <body>
-    <div class="nav_left">
-      <div class="nav_left_item">
-        <a href="index.html" class="nav_link">+home</a>
+    
+      <img id="Jo" src="JO.png" />
+      <div class="nav_left">
+        <div class="nav_left_item">
+          <a href="index.html" class="nav_link">+home</a>
+        </div>
+        <div class="nav_left_item">
+          <a href="about.html" class="nav_link">+about</a>
+        </div>
+        <div class="nav_left_item">
+          <a href="projects.html" class="nav_link">+projects</a>
+        </div>
       </div>
-      <div class="nav_left_item">
-        <a href="about.html" class="nav_link">+about</a>
-      </div>
-      <div class="nav_left_item">
-        <a href="projects.html" class="nav_link">+projects</a>
-      </div>
-    </div>
-    <div class="h1Container">
-      <h1>Anjolie Cummins</h1>
-      <a href="https://github.com/users/Anjoliekate/contributions"
-        >contributions</a
-      >
+
+
+      <div class="h1Container">
+
+        
+        <h1>Hello world! My name is,</h1>
+        <div class="name">ANJOLIE CUMMINS</div>
+        <h1>also known as Jo</h1>
+        
+        <a href="https://github.com/Anjoliekate">
+          <!-- Include the library. -->
+          <script src="github-calendar.min.js"></script>
+
+          <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+          <link rel="stylesheet" href="github-calendar-responsive.css" />
+
+          <!-- Prepare a container for your calendar. -->
+          <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+          </div>
+
+          <script>
+            GitHubCalendar(".calendar", "Anjoliekate");
+
+            // or enable responsive functionality:
+            GitHubCalendar(".calendar", "Anjoliekate", { responsive: true });
+
+            // Use a proxy
+            GitHubCalendar(".calendar", "Anjoliekate", {
+              proxy(username) {
+                return fetch(
+                  `https://your-proxy.com/github?user=${Anjoliekate}`
+                );
+              },
+            }).then((r) => r.text());
+          </script>
+        </a>
+      
+        <div class="leading">
+          
+          <img src="leading.png" />
+        
+        </div>
+        <img id="anjolie" src="anjolie.png" />
+        <div id="aboutMe">
+          <span class="num">01</span>
+          about me
+        </div>
+      
+        <div id="about_container">
+          <div class="bigger_letters">
+            I'm Jo, an aspiring Software Developer and problem solver.
+          </div>
+          <p>
+            Hello and welcome to my portfolio website! I am currently a student
+            pursuing a Bachelor's degree in Software Engineering at Utah Tech
+            University. I have lived in St. George, Utah my whole life and spend
+            my free time snowboarding, hiking, and watching youbtube videos that teach me something. I have always been fascinated by
+            technology and how it shapes our world.
+            <br />
+          </br>
+            As a software engineering student, I have honed my skills in various
+            programming languages such as Javascript, C++, C, HTML, CSS, SQL,
+            Python. I am proud to say that I have maintained an above 3.9 major
+            GPA throughout my Software Engineering degree, demonstrating my
+            commitment to excellence and dedication to my studies.I am passionate
+            about creating innovative solutions to complex problems and always
+            strive to stay up-to-date with the latest technologies and trends.
+            <br />
+          </br>
+            Throughout my academic career, I have had the opportunity to work on
+            various projects that have challenged me both technically and
+            creatively. As a team leader, I have learned the importance of
+            effective communication, collaboration, and delegation to ensure
+            project success. I believe that my ability to work well in a team
+            setting, coupled with my problem-solving skills, makes me an asset to
+            any project or organization. This portfolio website is a showcase of
+            my skills, achievements, and projects. 
+            <br />
+          </br>
+            I hope to demonstrate my
+            proficiency in software development and illustrate my creativity and
+            problem-solving abilities. Thank you for taking the time to learn
+            about me, and I look forward to connecting with you soon!
+          </p>
+        </div>
     </div>
   </body>
+ 
 </html>

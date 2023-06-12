@@ -73,7 +73,9 @@ a {
   margin: auto;
   width: 80%;
   position: relative;
-  padding-left: 400px;
+  padding-left: 150px;
+  margin-right: 100px;
+  margin-left: 80px;
 }
 
 .name {
@@ -126,8 +128,6 @@ p {
   align-items: center;
   display: grid;
   justify-content: right;
-  margin-right: 300px;
-
   margin-top: -50px;
 }
 .leading {
@@ -157,4 +157,31 @@ body {
 }
 .hideme {
   opacity: 0;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #00423e;
+}
+
+.position {
+  color: aliceblue;
+  font-size: large;
+  font-family: monospace;
+}
+#experience ul {
+  color: #5ca894;
+  font-family: roboto;
+  font-family: monospace;
+  margin-left: -30px;
+}
+
+#experience-label {
+  padding-top: 200px;
+  color: #d3f6dd;
+  font-size: xx-large;
+  font-weight: 100em;
+  font-family: "Fira Code", monospace;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  padding-bottom: 50px;
 }

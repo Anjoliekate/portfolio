@@ -10,7 +10,7 @@ h1 {
   font-family: "Fira Code", monospace;
   font-family: "Roboto Mono", monospace;
 }
-a {
+.nav a {
   color: #5ca894;
   text-decoration-style: none;
   font-family: "Fira Code", monospace;
@@ -21,6 +21,15 @@ a {
   @media screen and (max-width: 1150px) {
     display: none;
   }
+}
+
+.github-calendar {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
 }
 
 .nav_left_item {
@@ -40,8 +49,8 @@ a {
   height: 45px;
   position: fixed;
   background: #4c4c4c;
-  -webkit-transform-origin: left top;
-  -webkit-transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
   background-color: #00423e;
   margin-top: 250px;
   margin-left: 35px;
@@ -87,10 +96,14 @@ a {
 .num {
   color: aliceblue;
 }
-#anjolie {
+.anjolie {
   max-width: 400px;
   margin-bottom: -100px;
+  padding-bottom: 100px;
   float: right;
+}
+#anjolie {
+  padding-bottom: 100px;
 }
 p {
   color: #5ca894;
